@@ -1,0 +1,74 @@
+<head>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+<!-- 
+    CSS = Cascading Style Sheet
+    There are 3 ways to style(color, align and arrange)
+        1. Inline: 1st Priority
+            * Inside a html element
+            * Using style attribute
+        2. Internal: 2nd Priority
+            * Inside a html document specifically in head tag
+            * Using style tag
+        3. External: 3rd Priority
+            * Separate dedicated .css file
+ -->
+
+ <style>
+    h1 {
+        color: white;
+        background-color: red;
+    }
+</style>
+
+<h1 style="color: orange; background-color: yellow;"> Orange </h1>
+
+<h1> Mango </h1>
+
+<h2> Grape </h2>
+
+<style>
+    div {
+        color: white;
+        background-color: black;
+        width: 600px;
+        height: 400px;
+    }
+
+    .divp {
+        color: pink;
+        background-color: darkorchid;
+    }
+
+    #divph1 {
+        color: mediumseagreen;
+        background-color: darkcyan;
+    }
+</style>
+
+<!--
+    Let's styling in DIV tag 
+-->
+
+<div>
+
+    This is a div tag
+
+    <p class="divp">
+        This is a p tag inside a div tag
+
+        <h1 id="divph1">
+            This is a h1 tag inside p and which is inside div tag
+        </h1>
+
+        This is another p tag inside a div tag
+    </p>
+
+    This is another div tag
+    
+</div>
+
+</body>
