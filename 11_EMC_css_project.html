@@ -1,0 +1,144 @@
+<head>
+    <title>
+        Restaurant Web
+    </title>
+
+    <style>
+        * {
+            margin: 0px;
+        }
+
+        .heading, .tailing {
+            color: white;
+            background-color: black;
+        }
+
+        h1 {
+            display: inline;
+            text-align: left;
+            margin-left: 50%;
+        }
+
+        li {
+            color: gray;
+            display: inline;
+            text-align: center;
+            margin-left: 100px;
+        }
+
+        a {
+            color: gray;
+            text-decoration: none;
+        }
+
+        li:hover, a:hover {
+            color: white;
+            background-color: gray;
+            cursor: pointer;
+        }
+
+        .content {
+            display: inline;
+        }
+
+        .image1 {
+            width: 20%;
+            height: 20%;
+            margin-top: 50px;
+            margin-left: 10%;
+            border: solid black 5px;
+        }
+
+        .image2 {
+            width: 20%;
+            height: 20%;
+            margin-top: 50px;
+            border: solid black 5px;
+        }
+
+        .image3 {
+            width: 20%;
+            height: 20%;
+            margin-top: 50px;
+            border: solid black 5px;
+        }
+
+        .image4 {
+            width: 20%;
+            height: 20%;
+            margin-top: 50px;
+            border: solid black 5px;
+        }
+
+        h2 {
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        label {
+            margin-left: 40%;
+        }
+
+        button {
+            text-align: center;
+            margin-left: 41%;
+            width: 300px;
+            background-color: yellow;
+        }
+
+        #name {
+            margin-left: 50px;
+        }
+
+        #age {
+            margin-left: 60px;
+        }
+
+        #email {
+            margin-left: 50px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="heading">
+        <h1>
+            Reestar
+        </h1>
+
+        <li>
+            Home
+        </li>
+        <li>
+            |
+        </li>
+        <li>
+            Recipe
+        </li>
+        <li>
+            |
+        </li>
+        <li>
+            <a href="#contact"> Contact </a>
+        </li>
+    </div>
+
+    <div class="content">
+        <img class="image1" src="reester1.jpg">
+        <img class="image2" src="reester2.jpg">
+        <img class="image3" src="reester3.jpg">
+        <img class="image4" src="reester4.jpg">
+    </div>
+
+    <div class="tailing" id="contact">
+        <h2> Contact Us </h2><br><br>
+        <label for="name">Name:</label>
+        <input id="name" name="NAME" placeholder="Name"><br><br>
+        <label for="age">Age:</label>
+        <input id="age" name="AGE" placeholder="Age"><br><br>
+        <label for="email">Email:</label>
+        <input id="email" name="EMAIL" placeholder="Email"><br><br>
+        <button type="submit"> Send </button><br><br>
+    </div>
+</body>
